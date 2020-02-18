@@ -50,7 +50,8 @@ namespace ExpressLocalizationSampleCore3Mvc
                 new CultureInfo("tr"),
                 new CultureInfo("uk"),
                 new CultureInfo("vi"),
-                new CultureInfo("zh")
+                new CultureInfo("zh-hans"),
+                new CultureInfo("zh-hant")
             };
 
             services.AddControllersWithViews()

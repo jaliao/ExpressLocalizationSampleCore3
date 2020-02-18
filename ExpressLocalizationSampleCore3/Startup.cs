@@ -56,7 +56,8 @@ namespace ExpressLocalizationSampleCore3
                 new CultureInfo("tr"),
                 new CultureInfo("uk"),
                 new CultureInfo("vi"),
-                new CultureInfo("zh")
+                new CultureInfo("zh-hans"),
+                new CultureInfo("zh-hant")
             };
 
             services.AddRazorPages()
