@@ -118,215 +118,215 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="2fa has been disabled. You can reenable 2fa when you setup an authenticator app" xml:space="preserve">
-    <value>2FA已被禁用。您可以重新启用2FA当你设置一个认证程序</value>
+    <value>雙重驗證已停用。當您設置身份驗證 App 時可以啟用雙重驗證</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="&lt;p&gt;&#xA;        &lt;span class=&quot;glyphicon glyphicon-warning-sign&quot;&gt;&lt;/span&gt;&#xA;        &lt;strong&gt;If you reset your authenticator key your authenticator app will not work until you reconfigure it.&lt;/strong&gt;&#xA;    &lt;/p&gt;&#xA;    &lt;p&gt;&#xA;        This process disables 2FA until you verify your authenticator app.&#xA;        If you do not complete your authenticator app configuration you may lose access to your account.&#xA;    &lt;/p&gt;" xml:space="preserve">
-    <value>&lt;P&gt;
-        &lt;跨度类= “glyphicon glyphicon警告符号”&gt; &lt;/跨度&gt;
-        &lt;strong&gt;如果您重置您的认证密钥的认证的应用程序将无法正常工作，直到你重新配置它。&lt;/ STRONG&gt;
-    &lt;/ p&gt;
+    <value>&lt;p&gt;
+        &lt;span class="glyphicon glyphicon-warning-sign"&gt;&lt;/span&gt;
+        &lt;strong&gt;如果重置驗證碼，在重新完成驗證碼設定之前，您的 Authenticator App 將無法使用。&lt;/strong&gt;
+    &lt;/p&gt;
     &lt;P&gt;
-        这个过程将禁用2FA你必须先验证身份验证的应用程序。
-        如果你没有完成身份验证的应用程序的配置，你可能无法访问您的帐户。
-    &lt;/ p&gt;</value>
+        這個作業將停用雙重驗證，直到 Authenticator App 的驗證完成。
+        如果未完成 Authenticator App 的設定，您將無法存取帳戶。
+    &lt;/p&gt;</value>
     <comment>Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml</comment>
   </data>
   <data name="&lt;p&gt;&#xA;        &lt;span class=&quot;glyphicon glyphicon-warning-sign&quot;&gt;&lt;/span&gt;&#xA;        &lt;strong&gt;Put these codes in a safe place.&lt;/strong&gt;&#xA;    &lt;/p&gt;&#xA;    &lt;p&gt;&#xA;        If you lose your device and don't have the recovery codes you will lose access to your account.&#xA;    &lt;/p&gt;&#xA;    &lt;p&gt;&#xA;        Generating new recovery codes does not change the keys used in authenticator apps. If you wish to change the key&#xA;        used in an authenticator app you should &lt;a href=&quot;{0}&quot;&gt;reset your authenticator keys.&lt;/a&gt;&#xA;    &lt;/p&gt;" xml:space="preserve">
-    <value>&lt;P&gt;
-        &lt;跨度类= “glyphicon glyphicon警告符号”&gt; &lt;/跨度&gt;
-        的&lt;strong&gt;将这些代码在安全的地方。&lt;/强&gt;
-    &lt;/ p&gt;
+    <value>&lt;p&gt;
+        &lt;span class="glyphicon glyphicon-warning-sign"&gt;&lt;/span&gt;
+        &lt;strong&gt;請將這些代碼放在安全的地方。&lt;/strong&gt;
+    &lt;/p&gt;
     &lt;P&gt;
-        如果你失去了你的设备，并没有恢复代码，你将无法访问您的帐户。
-    &lt;/ p&gt;
+        如果遺失您的裝置，而且沒有復原碼，您將無法存取帳戶。
+    &lt;/p&gt;
     &lt;P&gt;
-        生成新的恢复代码不改变认证的应用程序使用的密钥。如果你想改变的关键
-        在认证应用中使用，你应该&lt;a href="{0}"&gt;重置您的认证密钥。&lt;/A&gt;
-    &lt;/ p&gt;</value>
+        產生新的復原碼並不會改變已使用在 Authenticator App 內的驗證碼。如果您想更改使用在 Authenticator App 內的驗證碼，您應該 &lt;a href="{0}"&gt;重置您的驗證碼。&lt;/a&gt;
+    &lt;/p&gt;</value>
     <comment>Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml</comment>
   </data>
-  <data name="&lt;p&gt;&#xA;        Swapping to the &lt;strong&gt;Development&lt;/strong&gt; environment displays detailed information about the error that occurred.&#xA;    &lt;/p&gt;&#xA;    &lt;p&gt;&#xA;        &lt;strong&gt;The Development environment shouldn't be enabled for deployed applications.&lt;/strong&gt; It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the &lt;strong&gt;Development&lt;/strong&gt; environment by setting the &lt;strong&gt;ASPNETCORE_ENVIRONMENT&lt;/strong&gt; environment variable to &lt;strong&gt;Development&lt;/strong&gt; and restarting the app.&#xA;    &lt;/p&gt;" xml:space="preserve">
-    <value>&lt;P&gt;
-        交换到的&lt;strong&gt;开发&lt;/强&gt;环境显示详细的有关所发生的错误的信息。
-    &lt;/ p&gt;
-    &lt;P&gt;
-        &lt;STRONG&gt;开发环境不应该被用于部署的应用程序启用。&lt;/ STRONG&gt;这可能会导致从异常显示敏感信息给最终用户。对于本地调试，通过设置的&lt;strong&gt; ASPNETCORE_ENVIRONMENT &lt;/强&gt;环境变量启用的&lt;strong&gt;开发&lt;/强&gt;环境中的&lt;strong&gt;开发&lt;/ strong&gt;并重新启动应用程序。
-    &lt;/ p&gt;</value>
+  <data name="Swapping to the &lt;strong&gt;Development&lt;/strong&gt; environment displays detailed information about the error that occurred." xml:space="preserve">
+    <value>切換至 &lt;strong&gt;開發&lt;/strong&gt; 環境以顯示關於錯誤發生的詳細訊息。</value>
+    <comment>Pages/Error.cshtml</comment>
+  </data>
+  <data name="&lt;strong&gt;The Development environment shouldn't be enabled for deployed applications.&lt;/strong&gt;&#xD;&#xA;    It can result in displaying sensitive information from exceptions to end users.&#xD;&#xA;    For local debugging, enable the &lt;strong&gt;Development&lt;/strong&gt; environment by setting the &lt;strong&gt;ASPNETCORE_ENVIRONMENT&lt;/strong&gt; environment variable to &lt;strong&gt;Development&lt;/strong&gt;&#xD;&#xA;    and restarting the app." xml:space="preserve">
+    <value>&lt;strong&gt;不應該在部署的應用程式啟用開發環境。&lt;/strong&gt;
+    程式發生例外時，這會洩漏敏感資訊給使用者。
+    對於本地除錯，將 &lt;strong&gt;ASPNETCORE_ENVIRONMENT&lt;/strong&gt; 環境變數設為 &lt;strong&gt;Development&lt;/strong&gt; 並重新執行應用程式可啟用 &lt;strong&gt;開發&lt;/strong&gt; 環境。</value>
     <comment>Pages/Error.cshtml</comment>
   </data>
   <data name="&lt;p&gt;Your account contains personal data that you have given us. This page allows you to download or delete that data.&lt;/p&gt;&#xA;            &lt;p&gt;&#xA;                &lt;strong&gt;Deleting this data will permanently remove your account, and this cannot be recovered.&lt;/strong&gt;&#xA;            &lt;/p&gt;" xml:space="preserve">
-    <value>&lt;p&gt;您的帐户中，您给我们的个人数据。此页面允许您下载或删除数据。&lt;/ P&gt;
-            &lt;P&gt;
-                的&lt;strong&gt;删除此数据将永久删除自己的帐户，并且该不能恢复。&lt;/强&gt;
-            &lt;/ p&gt;</value>
+    <value>&lt;p&gt;您的帳戶內有您提供的個人資料。此頁面允許您下載或刪除個人資料。&lt;/p&gt;
+            &lt;p&gt;
+                &lt;strong&gt;刪除個人資料將永久移除您的帳戶，此操作無法復原。&lt;/strong&gt;
+            &lt;/p&gt;</value>
     <comment>Areas/Identity/Pages/Account/Manage/PersonalData.cshtml</comment>
   </data>
   <data name="&lt;strong&gt;You have 1 recovery code left.&lt;/strong&gt;&#xA;            &lt;p&gt;You can &lt;a href=&quot;{0}&quot;&gt;generate a new set of recovery codes&lt;/a&gt;.&lt;/p&gt;" xml:space="preserve">
-    <value>&lt;strong&gt;您已经离开1个恢复代码。&lt;/强&gt;
-            &lt;p&gt;您可以&lt;a href="{0}"&gt;生成一组新的恢复码&lt;/a&gt;不同。&lt;/ P&gt;</value>
+    <value>&lt;strong&gt;您只剩下 1 組復原碼。&lt;/strong&gt;
+            &lt;p&gt;您可以 &lt;a href="{0}"&gt;產生一批新的復原碼&lt;/a&gt;。&lt;/p&gt;</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="&lt;strong&gt;You have no recovery codes left.&lt;/strong&gt;&#xA;            &lt;p&gt;You must &lt;a href=&quot;{0}&quot;&gt;generate a new set of recovery codes&lt;/a&gt; before you can log in with a recovery code.&lt;/p&gt;" xml:space="preserve">
-    <value>&lt;strong&gt;您有没有留下任何恢复代码。&lt;/ STRONG&gt;
-            &lt;p&gt;您必须&lt;a href="{0}"&gt;生成一组新的恢复代码&lt;/A&gt;，然后才能恢复码登录。&lt;/ P&gt;</value>
+    <value>&lt;strong&gt;您已沒有復原碼。&lt;/strong&gt;
+            &lt;p&gt;您必須 &lt;a href="{0}"&gt;產生一批新的復原碼&lt;/a&gt;，才能登入。&lt;/p&gt;</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="&lt;strong&gt;You have {0} recovery codes left.&lt;/strong&gt;&#xA;            &lt;p&gt;You should &lt;a href=&quot;{1}&quot;&gt;generate a new set of recovery codes&lt;/a&gt;.&lt;/p&gt;" xml:space="preserve">
-    <value>&lt;strong&gt;您已{0}恢复代码左&lt;/强&gt;
-            &lt;p&gt;您应该&lt;a href="{1}"&gt;生成一组新的恢复码&lt;/a&gt;不同。&lt;/ P&gt;</value>
+    <value>&lt;strong&gt;您還有 {0} 組復原碼。&lt;/strong&gt;
+            &lt;p&gt;您應該 &lt;a href="{1}"&gt;產生一批新的復原碼&lt;/a&gt;。&lt;/p&gt;</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Access denied" xml:space="preserve">
-    <value>拒绝访问</value>
+    <value>拒絕存取</value>
     <comment>Areas/Identity/Pages/Account/AccessDenied.cshtml</comment>
   </data>
   <data name="Add another service to log in." xml:space="preserve">
-    <value>添加其他服务进行登录。</value>
+    <value>增加第三方登入服務。</value>
     <comment>Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml</comment>
   </data>
   <data name="Add authenticator app" xml:space="preserve">
-    <value>添加认证的应用程序</value>
+    <value>增加 Authenticator App</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
-    <value>处理您的请求时发生错误。</value>
+    <value>處理您的請求時發生錯誤。</value>
     <comment>Pages/Error.cshtml</comment>
   </data>
   <data name="Associate your {0} account." xml:space="preserve">
-    <value>关联您的{0}帐户。</value>
+    <value>連結您的 {0} 帳戶。</value>
     <comment>Areas/Identity/Pages/Account/ExternalLogin.cshtml</comment>
   </data>
   <data name="Change password" xml:space="preserve">
-    <value>更改密码</value>
+    <value>更改密碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml</comment>
   </data>
   <data name="Change your account settings" xml:space="preserve">
-    <value>更改帐户设置</value>
+    <value>更改帳戶設置</value>
     <comment>Areas/Identity/Pages/Account/Manage/_Layout.cshtml</comment>
   </data>
   <data name="Configure authenticator app" xml:space="preserve">
-    <value>配置身份验证器应用</value>
+    <value>設定 Authenticator App</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Confirm email" xml:space="preserve">
-    <value>确认邮件</value>
+    <value>確認電子郵件</value>
     <comment>Areas/Identity/Pages/Account/ConfirmEmail.cshtml</comment>
   </data>
   <data name="Confirm your email" xml:space="preserve">
-    <value>确认您的电子邮件</value>
+    <value>確認您的電子郵件</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Create a new account." xml:space="preserve">
-    <value>创建一个新账户。</value>
+    <value>建立新帳戶。</value>
     <comment>Areas/Identity/Pages/Account/Register.cshtml</comment>
   </data>
   <data name="Development Mode" xml:space="preserve">
-    <value>发展模式</value>
+    <value>開發模式</value>
     <comment>Pages/Error.cshtml</comment>
   </data>
   <data name="Disable 2FA" xml:space="preserve">
-    <value>禁用2FA</value>
+    <value>停用雙重驗證</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Don't have access to your authenticator device? You can &lt;a id=&quot;recovery-code-login&quot; href=&quot;{0}&quot;&gt;log in with a recovery code&lt;/a&gt;." xml:space="preserve">
-    <value>不要访问您的认证设备？您可以&lt;a id="recovery-code-login" href="{0}"&gt;与恢复代码&lt;/A&gt;登录。</value>
+    <value>無法存取您的驗證裝置？您可以 &lt;a id="recovery-code-login" href="{0}"&gt;使用復原碼登入&lt;/a&gt;。</value>
     <comment>Areas/Identity/Pages/Account/LoginWith2fa.cshtml</comment>
   </data>
   <data name="Download" xml:space="preserve">
-    <value>下载</value>
+    <value>下載</value>
     <comment>Areas/Identity/Pages/Account/Manage/PersonalData.cshtml</comment>
   </data>
-  <data name="Download a two-factor authenticator app like Microsoft Authenticator for &lt;a href=&quot;{0}&quot;&gt;Windows Phone&lt;/a&gt;, &lt;a href=&quot;{1}&quot;&gt;Android&lt;/a&gt; and &lt;a href=&quot;{2}&quot;&gt;iOS&lt;/a&gt; or" xml:space="preserve">
-    <value>下载双因素身份验证的应用程序，如微软认证者对&lt;a href="{0}"&gt;的Windows Phone &lt;/A&gt;，&lt;a href="{1}"&gt;的Android &lt;/a&gt;和的&lt;a href =“{ 2}“&gt; iOS的&lt;/a&gt;或</value>
+  <data name="Download a two-factor authenticator app like Microsoft Authenticator for &lt;a href=&quot;{0}&quot;&gt;Windows Phone&lt;/a&gt;, &lt;a href=&quot;{1}&quot;&gt;Android&lt;/a&gt; and &lt;a href=&quot;{2}&quot;&gt;iOS&lt;/a&gt; or Google Authenticator for &lt;a href=&quot;{3}&quot;&gt;Android&lt;/a&gt; and &lt;a href=&quot;{4}&quot;&gt;iOS&lt;/a&gt;." xml:space="preserve">
+    <value>下載雙重驗證 App，例如可供 &lt;a href="{0}"&gt;Windows Phone&lt;/a&gt;，&lt;a href="{1}"&gt;Android&lt;/a&gt; 和 &lt;a href ="{2}"&gt;iOS&lt;/a&gt; 使用的 Microsoft Authenticator 或可供 &lt;a href="{3}"&gt;Android&lt;/a&gt; 和 &lt;a href ="{4}"&gt;iOS&lt;/a&gt; 使用的 Google Authenticator。</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Download Your Data" xml:space="preserve">
-    <value>下载您的数据</value>
+    <value>下載您的資料</value>
     <comment>Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml</comment>
   </data>
   <data name="Enter your email." xml:space="preserve">
-    <value>输入你的电子邮箱。</value>
+    <value>輸入您的電子郵件</value>
     <comment>Areas/Identity/Pages/Account/ForgotPassword.cshtml</comment>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误</value>
+  <data name="Error." xml:space="preserve">
+    <value>錯誤</value>
     <comment>Pages/Error.cshtml</comment>
   </data>
   <data name="Error from external provider: {0}" xml:space="preserve">
-    <value>从外部提供错误：{0}</value>
+    <value>來自 external provider 的錯誤：{0}</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Error loading external login information during confirmation." xml:space="preserve">
-    <value>错误的确认过程中加载外部登录信息。</value>
+    <value>載入並確認第三方登入訊息時發生錯誤。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Error loading external login information." xml:space="preserve">
-    <value>错误加载外部登录信息。</value>
+    <value>載入第三方登入訊息時發生錯誤。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="External logins" xml:space="preserve">
-    <value>外部登录</value>
+    <value>第三方登入</value>
     <comment>Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml</comment>
   </data>
   <data name="Forget this browser" xml:space="preserve">
-    <value>忘了这个浏览器</value>
+    <value>忘記此瀏覽器</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Forgot password confirmation" xml:space="preserve">
-    <value>忘记密码确认</value>
+    <value>忘記密碼確認</value>
     <comment>Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml</comment>
   </data>
   <data name="Forgot your password?" xml:space="preserve">
-    <value>忘记密码了吗？</value>
+    <value>忘記密碼了嗎？</value>
     <comment>Areas/Identity/Pages/Account/ForgotPassword.cshtml</comment>
   </data>
   <data name="Generate Recovery Codes" xml:space="preserve">
-    <value>生成恢复代码</value>
+    <value>產生復原碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml</comment>
   </data>
   <data name="Generate two-factor authentication (2FA) recovery codes" xml:space="preserve">
-    <value>生成的双因素认证（2FA）恢复代码</value>
+    <value>產生雙重驗證（2FA）復原碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml</comment>
   </data>
   <data name="Google Authenticator for &lt;a href=&quot;{3}&quot;&gt;Android&lt;/a&gt; and &lt;a href=&quot;{4}&quot;&gt;iOS&lt;/a&gt;." xml:space="preserve">
-    <value>谷歌验证器&lt;a href="{3}"&gt;的Android &lt;/a&gt;和&lt;a href="{4}"&gt;的iOS &lt;/A&gt;。</value>
+    <value>可供 &lt;a href="{3}"&gt;Android&lt;/a&gt; 和 &lt;a href="{4}"&gt;iOS&lt;/a&gt; 使用的 Google Authenticator。</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Hello {0}!" xml:space="preserve">
-    <value>你好{0}！</value>
+    <value>您好 {0}！</value>
     <comment>Pages/Shared/_LoginPartial.cshtml</comment>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>家</value>
+    <value>首頁</value>
     <comment>Pages/Shared/_Layout.cshtml</comment>
   </data>
   <data name="Invalid authenticator code." xml:space="preserve">
-    <value>无效的认证码。</value>
+    <value>無效的驗證碼。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Invalid login attempt." xml:space="preserve">
-    <value>无效的登录尝试。</value>
+    <value>無效的登入。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Invalid recovery code entered." xml:space="preserve">
-    <value>无效的恢复代码输入。</value>
+    <value>輸入的復原碼無效。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Learn about &lt;a href=&quot;{0}&quot;&gt;building Web apps with ASP.NET Core&lt;/a&gt;." xml:space="preserve">
-    <value>了解&lt;a href="{0}"&gt;建筑Web应用程序与ASP.NET核心&lt;/A&gt;。</value>
+    <value>瞭解關於 &lt;a href="{0}"&gt;使用 ASP.NET Core 建立 Web App&lt;/a&gt;。</value>
     <comment>Pages/Index.cshtml</comment>
   </data>
   <data name="Locked out" xml:space="preserve">
-    <value>被锁在外面</value>
+    <value>封鎖</value>
     <comment>Areas/Identity/Pages/Account/Lockout.cshtml</comment>
   </data>
   <data name="Log in" xml:space="preserve">
-    <value>登录</value>
+    <value>登入</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="Log in using your external account" xml:space="preserve">
-    <value>登录使用您的外部账号</value>
+    <value>使用您的第三方帳戶登入</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="Log out" xml:space="preserve">
@@ -334,7 +334,7 @@
     <comment>Areas/Identity/Pages/Account/Logout.cshtml</comment>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>登录</value>
+    <value>登入</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="Manage" xml:space="preserve">
@@ -342,270 +342,271 @@
     <comment>Pages/Shared/_LoginPartial.cshtml</comment>
   </data>
   <data name="Manage your account" xml:space="preserve">
-    <value>管理您的帐户</value>
+    <value>管理您的帳戶</value>
     <comment>Areas/Identity/Pages/Account/Manage/_Layout.cshtml</comment>
   </data>
   <data name="Manage your external logins" xml:space="preserve">
-    <value>管理你的外部登录</value>
+    <value>管理您的第三方登入</value>
     <comment>Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml</comment>
   </data>
   <data name="Once you have scanned the QR code or input the key above, your two factor authentication app will provide you with a unique code. Enter the code in the confirmation box below." xml:space="preserve">
-    <value>一旦你已经扫描上面的键QR码或输入，你的两个因素身份验证的应用程序会为您提供一个独特的代码。输入下面的确认框的代码。</value>
+    <value>一旦您掃描 QR code 或輸入上方的驗證碼，您的雙重驗證 Authentication App 將提供您一組唯一的代碼，將代碼輸入下方的確認框。</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>密码</value>
+    <value>密碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml</comment>
   </data>
   <data name="Password not correct." xml:space="preserve">
-    <value>密码不正确。</value>
+    <value>密碼錯誤。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Personal Data" xml:space="preserve">
-    <value>个人资料</value>
+    <value>個人資料</value>
     <comment>Areas/Identity/Pages/Account/Manage/PersonalData.cshtml</comment>
   </data>
   <data name="Please check your email to reset your password." xml:space="preserve">
-    <value>请检查您的电子邮件重置您的密码。</value>
+    <value>請檢查您的電子信箱以重置密碼。</value>
     <comment>Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml</comment>
   </data>
   <data name="Please confirm your account by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;." xml:space="preserve">
-    <value>通过&lt;a href='{0}'&gt;点击这里&lt;/a&gt;请确认您的帐户。</value>
+    <value>請 &lt;a href='{0}'&gt;點這裡&lt;/a&gt; 確認帳戶。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Please enter a valid number." xml:space="preserve">
-    <value>请输入一个有效的数字。</value>
+    <value>請輸入一個有效的數字。</value>
     <comment>Pages/SampleForm.cshtml</comment>
   </data>
   <data name="Please reset your password by &lt;a href='{0}'&gt;clicking here&lt;/a&gt;." xml:space="preserve">
-    <value>请通过&lt;a href='{0}'&gt;点击这里&lt;/a&gt;重置您的密码。</value>
+    <value>請 &lt;a href='{0}'&gt;點這裡&lt;/a&gt; 重置密碼。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Privacy" xml:space="preserve">
-    <value>隐私</value>
+    <value>隱私</value>
     <comment>Pages/Shared/_Layout.cshtml</comment>
   </data>
   <data name="Privacy Policy" xml:space="preserve">
-    <value>隐私政策</value>
+    <value>隱私政策</value>
     <comment>Pages/Privacy.cshtml</comment>
   </data>
   <data name="Profile" xml:space="preserve">
-    <value>轮廓</value>
+    <value>個人資料</value>
     <comment>Areas/Identity/Pages/Account/Manage/Index.cshtml</comment>
   </data>
   <data name="Recovery code verification" xml:space="preserve">
-    <value>恢复验证码</value>
+    <value>驗證復原碼</value>
     <comment>Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml</comment>
   </data>
   <data name="Register" xml:space="preserve">
-    <value>寄存器</value>
+    <value>註冊</value>
     <comment>Areas/Identity/Pages/Account/ExternalLogin.cshtml</comment>
   </data>
   <data name="Register as a new user" xml:space="preserve">
-    <value>注册新用户</value>
+    <value>註冊新帳戶</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="Registered Logins" xml:space="preserve">
-    <value>注册登录</value>
+    <value>登入已註冊</value>
     <comment>Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml</comment>
   </data>
   <data name="Remember me?" xml:space="preserve">
-    <value>记住账号？</value>
+    <value>記住我？</value>
     <comment>Login.cshtml</comment>
   </data>
   <data name="Remove this login from your account" xml:space="preserve">
-    <value>从您的帐户中删除此登录</value>
+    <value>從您的帳戶刪除此登入</value>
     <comment>Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml</comment>
   </data>
   <data name="Remove {0}" xml:space="preserve">
-    <value>删除{0}</value>
+    <value>刪除 {0}</value>
     <comment>Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml</comment>
   </data>
   <data name="Request ID:" xml:space="preserve">
-    <value>请求ID：</value>
+    <value>請求 ID：</value>
     <comment>Pages/Error.cshtml</comment>
   </data>
   <data name="Reset" xml:space="preserve">
-    <value>重启</value>
+    <value>重設</value>
     <comment>Areas/Identity/Pages/Account/ResetPassword.cshtml</comment>
   </data>
   <data name="Reset authenticator app" xml:space="preserve">
-    <value>重置身份验证器应用</value>
+    <value>重置 Authenticator App</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Reset authenticator key" xml:space="preserve">
-    <value>复位键认证</value>
+    <value>重置驗證碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml</comment>
   </data>
   <data name="Reset password" xml:space="preserve">
-    <value>重设密码</value>
+    <value>重設密碼</value>
     <comment>Areas/Identity/Pages/Account/ResetPassword.cshtml</comment>
   </data>
   <data name="Reset password confirmation" xml:space="preserve">
-    <value>重置密码确认</value>
+    <value>重設密碼確認</value>
     <comment>Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml</comment>
   </data>
   <data name="Reset recovery codes" xml:space="preserve">
-    <value>重置恢复码</value>
+    <value>重置復原碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Reset your password." xml:space="preserve">
-    <value>重置你的密码。</value>
+    <value>重設您的密碼。</value>
     <comment>Areas/Identity/Pages/Account/ResetPassword.cshtml</comment>
   </data>
   <data name="Sample Form" xml:space="preserve">
-    <value>表格样本</value>
+    <value>範例表單</value>
     <comment>Pages/SampleForm.cshtml</comment>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>保存</value>
+    <value>儲存</value>
     <comment>Areas/Identity/Pages/Account/Manage/Index.cshtml</comment>
   </data>
   <data name="Send verification email" xml:space="preserve">
-    <value>发送验证电子邮件</value>
+    <value>發送驗證電子郵件</value>
     <comment>Areas/Identity/Pages/Account/Manage/Index.cshtml</comment>
   </data>
   <data name="Set password" xml:space="preserve">
-    <value>设置密码</value>
+    <value>設定密碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/SetPassword.cshtml</comment>
   </data>
   <data name="Setup authenticator app" xml:space="preserve">
-    <value>设置身份验证器应用</value>
+    <value>設定 Authenticator App</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Submit" xml:space="preserve">
-    <value>提交</value>
+    <value>送出</value>
     <comment>Areas/Identity/Pages/Account/ForgotPassword.cshtml</comment>
   </data>
   <data name="Thank you for confirming your email." xml:space="preserve">
-    <value>感谢您确认您的电子邮件。</value>
+    <value>感謝您完成電子郵件確認。</value>
     <comment>Areas/Identity/Pages/Account/ConfirmEmail.cshtml</comment>
   </data>
   <data name="The current browser has been forgotten. When you login again from this browser you will be prompted for your 2fa code." xml:space="preserve">
-    <value>目前的浏览器已经被遗忘了。当你从这个浏览器再次登录系统将提示您为您的2FA代码。</value>
+    <value>已遺忘目前的瀏覽器。下次使用此瀏覽器登入時，您將需要輸入雙重驗證碼。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="The external login was added." xml:space="preserve">
-    <value>加入外部登录。</value>
+    <value>第三方登入已加入。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="The external login was removed." xml:space="preserve">
-    <value>除去外部登录。</value>
+    <value>第三方登入已移除。</value>
     <comment>Custom back end message</comment>
   </data>
-  <data name="There are no external authentication services configured. See &lt;a href='https://go.microsoft.com/fwlink/?LinkID=532715'&gt;this article&lt;/a&gt; for details on setting up this ASP.NET application to support logging in via external services." xml:space="preserve">
-    <value>有没有配置外部认证服务。请参见&lt;a href='https://go.microsoft.com/fwlink/?LinkID=532715'&gt;关于设立这个ASP.NET应用程序以支持通过外部服务的登录细节这篇文章&lt;/a&gt;。</value>
+  <data name="There are no external authentication services configured. See &lt;a href=&quot;{0}&quot;&gt;this article&lt;/a&gt; for details on setting up this ASP.NET application to support logging in via external services." xml:space="preserve">
+    <value>尚未設定第三方驗證服務。在此 ASP.NET 應用程式設定使用第三方登入服務的詳細說明，請參考 &lt;a href='https://go.microsoft.com/fwlink/?LinkID=532715'&gt;這個主題&lt;/a&gt;。</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>此帐户已被锁定，请稍后再试。</value>
+    <value>此帳戶已被鎖定，請梢後再試。</value>
     <comment>Areas/Identity/Pages/Account/Lockout.cshtml</comment>
   </data>
   <data name="To enable QR code generation please read our &lt;a href=&quot;{0}&quot;&gt;documentation&lt;/a&gt;." xml:space="preserve">
-    <value>为了使QR代码生成，请阅读我们的&lt;a href="{0}"&gt;文档&lt;/a&gt;。</value>
+    <value>要開啟 QR code 產生器，請閱讀我們的 &lt;a href="{0}"&gt;文件&lt;/a&gt;。</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="To use an authenticator app go through the following steps:" xml:space="preserve">
-    <value>要使用认证的应用程序要经过以下步骤：</value>
+    <value>請透過以下步驟使用 Authenticator App：</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Two-factor authentication" xml:space="preserve">
-    <value>双因素身份验证</value>
+    <value>雙重驗證</value>
     <comment>Areas/Identity/Pages/Account/LoginWith2fa.cshtml</comment>
   </data>
   <data name="Two-factor authentication (2FA)" xml:space="preserve">
-    <value>双因素认证（2FA）</value>
+    <value>雙重驗證（2FA）</value>
     <comment>Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml</comment>
   </data>
   <data name="Update password" xml:space="preserve">
-    <value>更新密码</value>
+    <value>更新密碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml</comment>
   </data>
   <data name="Use a local account to log in." xml:space="preserve">
-    <value>使用本地帐户登录。</value>
+    <value>使用本地帳戶登入。</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="Use another service to log in." xml:space="preserve">
-    <value>使用其他服务登录。</value>
+    <value>使用第三方服務登入。</value>
     <comment>Areas/Identity/Pages/Account/Login.cshtml</comment>
   </data>
   <data name="Use this page to detail your site's privacy policy." xml:space="preserve">
-    <value>使用此页详细说明您的网站的隐私政策。</value>
+    <value>使用此頁面詳細說明您網站的隱私政策。</value>
     <comment>Pages/Privacy.cshtml</comment>
   </data>
-  <data name="Use this space to summarize your privacy and cookie use policy. &lt;a href=&quot;{0}&quot;&gt;Learn More&lt;/a&gt;.&#xA;        &lt;button type=&quot;button&quot; class=&quot;accept-policy close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot; data-cookie-string=&quot;{1}&quot;&gt;&#xA;            &lt;span aria-hidden=&quot;true&quot;&gt;Accept&lt;/span&gt;&#xA;        &lt;/button&gt;" xml:space="preserve">
-    <value>利用这个空间来概括您的隐私和cookie的使用政策。 &lt;a href="{0}"&gt;了解详情&lt;/a&gt;。
-        &lt;按钮类型=“按钮”类=“接受策略关闭”数据解雇=“提醒”咏叹调标签=“关闭”数据的cookie串=“{1}”&gt;
-            &lt;跨度咏叹调隐藏=“真”&gt;接受&lt;/跨度&gt;
-        &lt;/按钮&gt;</value>
+  <data name="Use this space to summarize your privacy and cookie use policy. &lt;a href=&quot;{0}&quot;&gt;Learn More&lt;/a&gt;." xml:space="preserve">
+    <value>使用這個空間概述您的隱私與 cookie 使用政策。&lt;a href="{0}"&gt;瞭解詳情&lt;/a&gt;。</value>
     <comment>Pages/Shared/_CookieConsentPartial.cshtml</comment>
   </data>
   <data name="Verification Code" xml:space="preserve">
-    <value>验证码</value>
+    <value>驗證碼</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Verification email sent. Please check your email." xml:space="preserve">
-    <value>验证邮件已发送。请检查您的电子邮件。</value>
+    <value>驗證郵件已寄出。請檢查您的電子郵件。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Verify" xml:space="preserve">
-    <value>校验</value>
+    <value>確認</value>
     <comment>Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml</comment>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value>欢迎</value>
+    <value>歡迎</value>
     <comment>Pages/Index.cshtml</comment>
   </data>
   <data name="You do not have a local username/password for this site. Add a local account so you can log in without an external login." xml:space="preserve">
-    <value>你不必为这个网站的本地用户名/密码。添加本地帐户，以便您可以登录无需外部登录。</value>
+    <value>您在本網站沒有用戶名稱/密碼。新增本地帳戶即可登入，而無需經由第三方登入。</value>
     <comment>Areas/Identity/Pages/Account/Manage/SetPassword.cshtml</comment>
   </data>
   <data name="You do not have access to this resource." xml:space="preserve">
-    <value>您没有使用这些资源。</value>
+    <value>您無法存取這個資源。</value>
     <comment>Areas/Identity/Pages/Account/AccessDenied.cshtml</comment>
   </data>
   <data name="You have generated new recovery codes." xml:space="preserve">
-    <value>已生成新的恢复码。</value>
+    <value>已產生新的復原碼。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="You have requested to log in with a recovery code. This login will not be remembered until you provide an authenticator app code at log in or disable 2FA and log in again." xml:space="preserve">
-    <value>您已请求与恢复码登录。此登录不会被记住，直到你在日志中提供认证应用程序代码或禁用2FA并重新登录。</value>
+    <value>您已請求一個登入用的恢復碼。在您使用 Authenticator App 驗證碼登入或關閉雙重驗證（2FA）且重登之前，這個登入將不會記住。</value>
     <comment>Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml</comment>
   </data>
   <data name="You have successfully logged out of the application." xml:space="preserve">
-    <value>您已成功退出应用程序。</value>
+    <value>您已登出應用程式。</value>
     <comment>Areas/Identity/Pages/Account/Logout.cshtml</comment>
   </data>
   <data name="You've successfully authenticated with &lt;strong&gt;{0}&lt;/strong&gt;. Please enter an email address for this site below and click the Register button to finish logging in." xml:space="preserve">
-    <value>你已经成功地通过身份验证的&lt;strong&gt; {0} &lt;/ strong&gt;即可。请输入一个电子邮件地址，这个网站的下方，点击注册按钮即可完成登录。</value>
+    <value>您已通過 &lt;strong&gt;{0}&lt;/strong&gt; 驗證。請在下方輸入用於本網站登入用的電子信箱，並按下註冊鈕完成登入。</value>
     <comment>Areas/Identity/Pages/Account/ExternalLogin.cshtml</comment>
   </data>
   <data name="Your authenticator app has been verified." xml:space="preserve">
-    <value>您的身份验证器应用中得到验证。</value>
+    <value>您的 Authenticator App 已通過驗證。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Your authenticator app key has been reset, you will need to configure your authenticator app using the new key." xml:space="preserve">
-    <value>您的身份验证的应用程序键已被重置，则需要使用新密钥配置您的身份验证器应用。</value>
+    <value>您的 Authenticator App 驗證碼已重置，您將需要新的驗證碼設定 Authenticator App。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Your login is protected with an authenticator app. Enter your authenticator code below." xml:space="preserve">
-    <value>您的登录保护与验证的应用程序。请在下面输入您的认证码。</value>
+    <value>您的登入已透過 Authenticator App 保護。請在下方輸入您的驗證碼。</value>
     <comment>Areas/Identity/Pages/Account/LoginWith2fa.cshtml</comment>
   </data>
   <data name="Your password has been changed." xml:space="preserve">
-    <value>您的密码已被更改。</value>
+    <value>您的密碼已更改。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Your password has been reset. Please &lt;a href=&quot;{0}&quot;&gt;click here to log in&lt;/a&gt;." xml:space="preserve">
-    <value>您的密码已重置。请&lt;a href="{0}"&gt;点击这里登录&lt;/a&gt;。</value>
+    <value>您的密碼已重置。請 &lt;a href="{0}"&gt;點這裡登入&lt;/a&gt;。</value>
     <comment>Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml</comment>
   </data>
   <data name="Your password has been set." xml:space="preserve">
-    <value>您的密码已设置。</value>
+    <value>您的密碼已設定。</value>
     <comment>Custom back end message</comment>
   </data>
   <data name="Your profile has been updated" xml:space="preserve">
-    <value>你的个人资料已经更新</value>
+    <value>您的個人資料已更新</value>
     <comment>Custom back end message</comment>
+  </data>
+  <data name="Use another service to register." xml:space="preserve">
+    <value>使用第三方服務註冊。</value>
+    <comment>Areas/Identity/Pages/Account/Register.cshtml</comment>
   </data>
 </root>
